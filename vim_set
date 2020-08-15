@@ -1,0 +1,10 @@
+color darkblue
+set guifont=Lucida_Console:h10
+set number
+set noeb vb t_vb=
+set noundofile
+set nobackup
+au BufNewFile,BufRead *.cu set ft=cuda
+au BufNewFile,BufRead *.cuh set ft=cuda
+
+filetype indent on
